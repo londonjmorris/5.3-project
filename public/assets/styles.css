@@ -1,0 +1,79 @@
+body{
+    background: url(vaporwave-wallpaper.jpg) no-repeat center;
+    background-size: cover;
+    font-family: tahoma;
+    color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+}
+
+#todo-table{
+    position: relative;
+    width: 90%;
+    background: #1053b4;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+form{
+    display:flex;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 2.5vh;
+    background: #eceff1;
+    border: 0;
+    float: left;
+    font-size: 1.8vw;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 2.5vh;
+    width: 25%;
+    float: right;
+    background: #F29CD2;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.8vw;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 2vh;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 1.5vw;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    font-size: 2.8vw;
+}

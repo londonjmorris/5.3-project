@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+    
+    <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>Node JS/Express Todo List</h1>
+    <div id="todo-table">
+      <form method="POST">
+        <input type="text" name="item" placeholder="Add new item..." required/>
+        <button type="submit">Add Item</button>
+      </form>
+      <ul>
+        {{#todos}}
+          <li>{{item}}</li>
+        {{/todos}}
+      </ul>
+  </body>
+</html>
